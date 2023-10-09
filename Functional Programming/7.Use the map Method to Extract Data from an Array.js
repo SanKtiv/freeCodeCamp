@@ -125,13 +125,9 @@ const watchList = [
 // Only change code below this line
 
 let ratings = [];
-watchList.map(movie => {
-    ratings.push({title: movie["Title"], rating: movie.imdbRating})
-    //movie.imdbRating;
+        watchList.map(movie => {
+            ratings.push({title: movie["Title"], rating: movie.imdbRating})
 });
-// for (let i = 0; i < watchList.length; i++) {
-//     ratings.push({title: watchList[i]["Title"], rating: watchList[i]["imdbRating"]});
-// }
 
 // Only change code above this line
 
